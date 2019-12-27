@@ -1,16 +1,17 @@
 const config = {
 	"gatsby": {
 		"pathPrefix": "/",
-		"siteUrl": "https://learn.hasura.io",
+		"siteUrl": "https://github.com/patelis/cs-gy-6613/tree/master/content",
 		"gaTrackingId": null
 	},
 	"header": {
-		"logo": "https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/favicon.png",
-		"logoLink": "https://learn.hasura.io",
-		"title": "Gatsby Gitbook Boilerplate",
-		"githubUrl": "https://github.com/hasura/gatsby-gitbook-boilerplate",
+		"logo": "https://engineering.nyu.edu/sites/default/files/2019-01/tandon_stacked_white.png",
+		"logoLink": "https://www.nyu.edu",
+		"title": "CS-GY-6613",
+		"githubUrl": "https://github.com/pantelis",
+		"slackUrl": "https://join.slack.com/t/csgy6613sprin-vwk3759/shared_invite/enQtODg3NDA2Nzc3NDg4LTBkYzQ2M2ViNDAxOTUxNDA1OWY5ODA4YmM5M2RlMDcyMDQzMWVlZDc5MWVkOTg1NDE1YmMyMDc4ZmQ2MTAyMmE",
 		"helpUrl": "",
-		"tweetText": "",
+		"tweetText": "@monogioudis",
 		"links": [
 			{ "text": "", "link": ""}
 		],
@@ -24,30 +25,47 @@ const config = {
 	},
 	"sidebar": {
 		"forcedNavOrder": [
-			"/introduction",
-    		"/codeblock"
+			"/syllabus/index",
+			"/lectures/ai-intro",
+			"/lectures/ml-math",
+			"/lectures/ml-frameworks",
+			"/lectures/regression",
+			"/lectures/classification",
+			"/lectures/dnn",
+			"/lectures/cnn",
+    		"/projects/"
 		],
     	"collapsedNav": [
-      		"/codeblock"
+			  "/lectures/ai-intro",
+			  "/lectures/ml-math",
+			"/lectures/ml-frameworks",
+			"/lectures/regression",
+			"/lectures/classification",
+			"/lectures/dnn",
+			"/lectures/cnn",
+			"/projects/"
     	],
 		"links": [
-			{ "text": "Hasura", "link": "https://hasura.io"},
+			{ "text": "Colab", "link": "https://colab.research.google.com"},
+			{ "text": "Kaggle", "link": "https://www.kaggle.com"}
 		],
 		"frontline": false,
 		"ignoreIndex": true,
 	},
 	"siteMetadata": {
-		"title": "Gatsby Gitbook Boilerplate | Hasura",
-		"description": "Documentation built with mdx. Powering learn.hasura.io ",
+		"title": "CS-GY-6613",
+		"description": "NYU AI Course",
 		"ogImage": null,
-		"docsLocation": "https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content",
-		"favicon": "https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg"
+		"docsLocation": "https://github.com/patelis/cs-gy-6613/tree/master/content",
+		"favicon": "https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg",
+		"slackUrl": "https://join.slack.com/t/csgy6613sprin-vwk3759/shared_invite/enQtODg3NDA2Nzc3NDg4LTBkYzQ2M2ViNDAxOTUxNDA1OWY5ODA4YmM5M2RlMDcyMDQzMWVlZDc5MWVkOTg1NDE1YmMyMDc4ZmQ2MTAyMmE"
+
 	},
 	"pwa": {
 		"enabled": false, // disabling this will also remove the existing service worker.
 		"manifest": {
-			"name": "Gatsby Gitbook Starter",
-			"short_name": "GitbookStarter",
+			"name": "CS-GY-6613",
+			"short_name": "AI",
 			"start_url": "/",
 			"background_color": "#6b37bf",
 			"theme_color": "#6b37bf",

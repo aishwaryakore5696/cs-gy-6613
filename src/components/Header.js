@@ -60,11 +60,13 @@ const Header = ({location}) => (
     render={(data) => {
       const logoImg = require('./images/logo.svg');
       const twitter = require('./images/twitter.svg');
+      const slack = require('./images/Slack_Mark_web.png');
       const {
         site: {
           siteMetadata: {
             headerTitle,
             githubUrl,
+            slackUrl,
             helpUrl,
             tweetText,
             logo,
@@ -120,7 +122,7 @@ const Header = ({location}) => (
                 }
                 {tweetText !== '' ?
                   (<li>
-                    <a href={'https://twitter.com/intent/tweet?&text=' + tweetText} target="_blank" rel="noopener">
+                    <a href={'https://twitter.com/monogioudis'}>
                       <img className={'shareIcon'} src={twitter} alt={'Twitter'} />
                     </a>
                    </li>) : null
@@ -128,7 +130,15 @@ const Header = ({location}) => (
                 {githubUrl !== '' ?
                   (<li className={'githubBtn'}>
                     <GitHubButton href={githubUrl} data-show-count="true" aria-label="Star on GitHub">Star</GitHubButton>
-                  </li>) : null}
+                  </li>) : null
+                }
+                {slackUrl !== '' ?
+                  (<li>
+                    <a href={slackUrl}>
+                      <img className={'shareIcon'} src={slack} alt={'Slack'} />
+                    </a>
+                   </li>) : null
+                }
               </ul>
             </div>
           </nav>
