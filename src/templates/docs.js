@@ -8,6 +8,8 @@ import NextPrevious from '../components/NextPrevious';
 import '../components/styles.css';
 import config from '../../config';
 
+import 'katex/dist/katex.min.css' ;
+
 const forcedNavOrder = config.sidebar.forcedNavOrder;
 
 const Edit = styled('div')`
@@ -50,7 +52,7 @@ export default class MDXRuntimeTest extends Component {
       }
     } = data;
     const gitHub = require('../components/images/github.svg');
-
+    
     const navItems = allMdx.edges
       .map(({ node }) => node.fields.slug)
       .filter(slug => slug !== "/")
