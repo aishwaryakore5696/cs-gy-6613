@@ -1,6 +1,5 @@
 ---
 title: Computer Vision Introduction
-menu: Week 5 - Convolutional Neural Networks
 ---
 
 ![city](images/city-vision.jpg)

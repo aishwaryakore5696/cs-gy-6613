@@ -155,7 +155,10 @@ export const pageQuery = graphql`
         metaDescription
       }
     }
-    allMdx {
+    allMdx(
+      sort: { order: DESC, fields: [frontmatter___title]},
+      filter: {fileAbsolutePath: {regex: "/(docs)/.*\\.md$/"}}
+    ) {
       edges {
         node {
           fields {

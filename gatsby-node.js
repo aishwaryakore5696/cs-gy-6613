@@ -22,6 +22,15 @@ exports.createPages = ({ graphql, actions }) => {
                 }
               }
             }
+            allDeck {
+              edges {
+                node {
+                  id
+                  slug
+                  title
+                }
+              }
+            }
           }
         `
       ).then(result => {
@@ -30,7 +39,7 @@ exports.createPages = ({ graphql, actions }) => {
           reject(result.errors);
         }
 
-        // Create blog posts pages.
+        // Create lecture pages.
         result.data.allMdx.edges.forEach(({ node }) => {
           createPage({
             path: node.fields.slug ? node.fields.slug : "/",
@@ -40,6 +49,17 @@ exports.createPages = ({ graphql, actions }) => {
             }
           });
         });
+
+        // // Create deck pages.
+        // result.data.allDeck.edges.forEach(({ node }) => {
+        //   createPage({
+        //     path: node.slug ? node.slug : "/",
+        //     component: path.resolve("./node_modules/gatsby-theme-mdx-deck/src/components/slide.js"),
+        //     context: {
+        //       id: node.id
+        //     }
+        //   });
+        // });
       })
     );
   });

@@ -33,7 +33,8 @@ const config = {
 			"/lectures/classification",
 			"/lectures/dnn",
 			"/lectures/cnn",
-    		"/projects/"
+			"/lectures/search",
+    		"/projects/",
 		],
     	"collapsedNav": [
 			  "/lectures/ai-intro",
@@ -43,7 +44,8 @@ const config = {
 			"/lectures/classification",
 			"/lectures/dnn",
 			"/lectures/cnn",
-			"/projects/"
+			"/lectures/search",
+			"/projects/",
     	],
 		"links": [
 			{ "text": "Colab", "link": "https://colab.research.google.com"},
@@ -57,7 +59,7 @@ const config = {
 		"description": "NYU AI Course",
 		"ogImage": null,
 		"docsLocation": "https://github.com/patelis/cs-gy-6613/tree/master/content",
-		"favicon": "https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg",
+		"favicon": "",
 		"slackUrl": "https://join.slack.com/t/csgy6613sprin-vwk3759/shared_invite/enQtODg3NDA2Nzc3NDg4LTBkYzQ2M2ViNDAxOTUxNDA1OWY5ODA4YmM5M2RlMDcyMDQzMWVlZDc5MWVkOTg1NDE1YmMyMDc4ZmQ2MTAyMmE"
 
 	},

@@ -4,12 +4,12 @@ const config = require("./config");
 const plugins = [
   'gatsby-plugin-sitemap',
   'gatsby-plugin-sharp',
-  {
-    resolve: `gatsby-plugin-layout`,
-    options: {
-        component: require.resolve(`./src/templates/docs.js`)
-    }
-  },
+  // {
+  //   resolve: `gatsby-plugin-layout`,
+  //   options: {
+  //       component: require.resolve(`./src/templates/docs.js`)
+  //   }
+  // },
   'gatsby-plugin-emotion',
   'gatsby-plugin-remove-trailing-slashes',
   'gatsby-plugin-react-helmet',
@@ -18,6 +18,13 @@ const plugins = [
     options: {
       name: "docs",
       path: `${__dirname}/docs/`
+    }
+  },
+  {
+    resolve: "gatsby-source-filesystem",
+    options: {
+      name: "decks",
+      path: `${__dirname}/decks/`
     }
   },
   {
@@ -40,12 +47,28 @@ const plugins = [
             // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
             strict: `ignore`,
             macros: {
-              "\\rvepsilon": "\\mathbf{\epsilon}"
+              "\\rvepsilon": "\\mathbf{\\epsilon}",
+              "\\RR": "\\mathbb{R}"
             }
           }
         },
       ],
-      extensions: [".mdx", ".md"]
+      extensions: [".mdx", ".md"],
+      // defaultLayouts: {
+      //   docs: require.resolve("./src/components/layout.js"),
+      //   default: require.resolve("./src/components/layout.js"),
+      // },
+    }
+  },
+  {
+    resolve: `gatsby-theme-mdx-deck`,
+    options: {
+      // enable or disable gatsby-plugin-mdx
+      mdx: false,
+      // source directory
+      contentPath: `decks`,
+      // base path for routes generate by this theme
+      basePath: `/slides`
     }
   },
   {
@@ -58,24 +81,7 @@ const plugins = [
       // enable ip anonymization
       anonymize: false,
     },
-  },
-  {
-    resolve: `gatsby-transformer-remark`,
-    options: {
-      plugins: [
-        {
-          resolve: `gatsby-remark-katex`,
-          options: {
-            // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here
-            strict: `ignore`,
-            macros: {
-              "\\rvepsilon": "\\mathbf{\epsilon}"
-            }
-          }
-        }
-      ],
-    },
-  },
+  }
 ];
 // check and add algolia
 if (config.header.search && config.header.search.enabled && config.header.search.algoliaAppId && config.header.search.algoliaAdminKey) {
@@ -115,6 +121,7 @@ module.exports = {
     logo: { link: config.header.logoLink ? config.header.logoLink : '/', image: config.header.logo }, // backwards compatible
     headerTitle: config.header.title,
     githubUrl: config.header.githubUrl,
+    slackUrl:config.header.slackUrl,
     helpUrl: config.header.helpUrl,
     tweetText: config.header.tweetText,
     headerLinks: config.header.links,

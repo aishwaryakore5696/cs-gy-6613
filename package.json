@@ -40,6 +40,7 @@
     "gatsby-remark-katex": "^3.1.20",
     "gatsby-source-filesystem": "^2.1.42",
     "gatsby-source-youtube": "^1.0.1",
+    "gatsby-theme-mdx-deck": "^3.0.13",
     "gatsby-transformer-remark": "^2.6.45",
     "graphql": "^14.5.8",
     "is-absolute-url": "^3.0.3",
@@ -68,6 +69,7 @@
   },
   "devDependencies": {
     "gatsby-plugin-remove-trailing-slashes": "^2.1.17",
+    "mdx-deck": "^3.0.13",
     "prism-react-renderer": "^1.0.2"
   }
 }

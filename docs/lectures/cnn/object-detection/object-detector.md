@@ -1,6 +1,5 @@
 ---
-title: Object Detection 
-menu: Week 5 - Convolutional Neural Networks
+title: Object Detector
 ---
 
 ## Problem Statement 

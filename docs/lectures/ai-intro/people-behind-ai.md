@@ -81,7 +81,7 @@ At Google, we don’t just accept difference - we celebrate it, we support it, a
 To all recruitment agencies Google does not accept agency resumes. Please do not forward resumes to our jobs alias, Google employees or any other company location. Google is not responsible for any fees related to unsolicited resumes
 
 ## A Note Conways' Law
->>"Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure." http://www.melconway.com/Home/Conways_Law.html
+> "Any organization that designs a system (defined broadly) will produce a design whose structure is a copy of the organization's communication structure." http://www.melconway.com/Home/Conways_Law.html
 
 "We do research differently here at Google. Research Scientists aren't cloistered in the lab, but instead they work closely with Software Engineers to discover, invent, and build at the largest scale."
 
