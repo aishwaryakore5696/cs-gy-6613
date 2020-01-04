@@ -1,6 +1,5 @@
 ---
 title: The Convolution & Cross-Correlation Operation
-menu: Week 5 - Convolutional Neural Networks
 ---
 
 This section review many important to CNN operations that were inherited from digital signal processing.

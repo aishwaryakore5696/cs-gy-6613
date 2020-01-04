@@ -1,6 +1,5 @@
 ---
 title: Known CNN Architectures
-menu: Week 5 - Convolutional Neural Networks
 ---
 
 > NOTE: Use [this](https://towardsdatascience.com/neural-network-architectures-156e5bad51ba) article with [this](https://medium.com/@culurciello/analysis-of-deep-neural-networks-dcf398e71aae) update as a reference. This summary will be important to you as a starting point to develop your own up to date list of known ConvNets. 

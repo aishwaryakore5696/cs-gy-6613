@@ -43,6 +43,7 @@ const Header = ({location}) => (
             siteMetadata {
               headerTitle
               githubUrl
+              slackUrl
               helpUrl
               tweetText
               logo {

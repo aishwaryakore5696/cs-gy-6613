@@ -111,7 +111,10 @@ const SidebarLayout = ({location}) => (
   <StaticQuery
     query={graphql`
       query {
-        allMdx {
+        allMdx (
+      sort: { order: DESC, fields: [frontmatter___title]},
+      filter: {fileAbsolutePath: {regex: "/(docs)/.*\\.md$/"}}) 
+      {
           edges {
             node {
               fields {

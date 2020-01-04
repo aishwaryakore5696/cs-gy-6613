@@ -36,25 +36,25 @@ The schedule is based on [Academic Calendar Spring 2020](https://www.nyu.edu/reg
         
 9. **Week 9: (3/23/2020)**  
     
-10. **Week 10: (3/30/2020)**  This week we have a Guest Lecturer - Gurudutt Hosangadi (Nokia Bell Labs) will go over Time Series Forecasting. 
+10. **Week 10: (3/30/2020)**  
         
         
-11. **Week 11: (4/6/2020)**  Amongst deep learning frameworks, we will cover Tensorflow. We will learn how we can use Tensorflow big data capabilities to pre-process large datasets. 
+11. **Week 11: (4/6/2020)**  
         
         
-12. **Week 12: (4/13/2020)**  We will use existing neural network models to produce results that we have seen in earlier lectures in the space of regression and classification. We will understand the concept of embedding and how using embeddings as input to classical machine learning algorithms we get better performance than if we don't. 
+12. **Week 12: (4/13/2020)**  
         
         
 13. **Week 13: (4/20/2020)**  Enjoy your Spring Break.
         
         
-14. **Week 14: (4/27/2019)**  We conclude the course with going over a complete end to end ML pipeline use case, spending time in understanding hyperparameter optimization. 
+14. **Week 14: (4/27/2019)**  
             
 15. **Week 15: (5/05/2020)**  In this last lecture, we review what we learned and emphasize what kind of questions you are expected to answer in the final exam.  
         
-16. **Week 16: (5/11/2020)**  In this last lecture, we review what we learned and emphasize what kind of questions you are expected to answer in the final exam. 
+16. **Week 16: (5/11/2020)** Review week. 
         
-17. **Week 17**  Goo luck with your final test.
+17. **Week 17**  Good luck with your final test.
           
 
 

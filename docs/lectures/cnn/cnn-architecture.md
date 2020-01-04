@@ -1,6 +1,5 @@
 ---
 title: The CNN Architecture
-menu: Week 5 - Convolutional Neural Networks
 ---
 
 ## Convolutional Layer
