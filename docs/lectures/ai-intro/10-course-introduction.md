@@ -8,9 +8,60 @@ metaDescription: "AI evolution according to DARPA with representative examples"
 
 ### The four approaches towards AI
 
-  TODO: Explain the 4 approaches to AI and draw the diagram that maps the approaches in two dimensions. Understand better the cognitive model approach and the syllogismic approach and provide examples for all 4 approaches. 
+![AI-approaches](images/AI-approaches.png)
+
+#### The Turing Test Approach
+A 5-min behavioral intelligence test (described 1950 paper), where an interrogator chats with the player and at the end it guesses if the conversation is with a human or with a programmed machine.  The Loebner Prize Turing contest is is held annually since 1991. This course's projects includes the [Alexa prize](https://developer.amazon.com/alexaprize) which is _not_ a turing test. The Alexa Prize creates socialbots that engage in interesting, human-like conversations, not to make them indistinguishable from a human when compared side-by-side. Socialbots may have ready access to much more information than a human. 
+
+<table style="width:130%; table-layout:fixed;">
+  <tr>
+    <td><div class="embed">
+          <iframe src="https://www.youtube.com/embed/3wLqsRLvV-c"></iframe>
+        </div></td>
+    <td><div class="embed">
+            <iframe src="https://www.youtube.com/embed/nVi-QwX82GI"></iframe>
+          </div></td>
+  </tr>
+  <tr>
+    <td>Summary of the Turing Test</td>
+    <td>The Alexa Prize is not a Turing Test</td>
+  </tr>
+</table>
+
+What capabilities we need to have to pass a turing test. 
+
+1. Natural Language Processing
+2. Knowledge Representation
+3. Automated Reasoning
+4. Machine Learning 
+5. Computer Vision 
+6. Robotics
+
+The last two capabilities are not needed for the verbal oriented Turing test but they are needed for what is called the *total* Turing test. According to this test, the player and the interrogator can communicate physically. For example, there is a hatch where the interrogator can pass objects to the player through. Obviously the player must have perception abilities to understand what object it is (5) and possibly a body that can manipulate the object (6). Embodied AI research is one of the hotter areas of AI today as we will see in the [Agents](./50-agents) section. 
+
+#### The Cognitive Model approach 
+
+Newell, in his latest book "Unified Theories of Cognition",  defines cognition as:
+
+* Problem solving, decision making, routine action
+* Memory, learning, skill
+* Perception, motor behavior
+* Language
+* Motivation, emotion
+* Imagining, dreaming, daydreaming
+
+> “Over the Christmas Holiday, Alan Newell and I invented a thinking machine”, Herb Simon, January 1956.  He refers to the General Problem Solver as a means to trace the solvers reasoning steps to that of the human brain for identical tasks. 
+
+> How do we differentiate a cognitive model from a conceptual or statistical model? “Cognitive science is concerned with understanding the processes that the brain uses to accomplish complex tasks including perceiving, learning, remembering, thinking, predicting, problem solving, decision making, planning, and moving around the environment. The goal of a cognitive model is to scientifically explain one or more of these basic cognitive processes, or explain how these processes interact.”, --Busemeyer & Diederich (2010) 
+
+  TODO: Describe the ACT-R and SOAR Cognitive architectures perhaps in conjunction with the systems approach. 
+
+#### The Syllogism-based approach 
+
 
 https://en.wikipedia.org/wiki/Syllogism
+
+#### The Rational Agent approach
 
 
 ### The systems approach 
