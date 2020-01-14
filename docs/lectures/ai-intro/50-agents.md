@@ -45,3 +45,6 @@ This assumption is sometimes erroneously called *memoryless* but in any MDP abov
 
     TODO: add linkage to self-driving car block diagram.  
 
+
+### Embodied AI
+https://arxiv.org/abs/1904.01201

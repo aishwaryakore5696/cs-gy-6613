@@ -34,7 +34,8 @@ const config = {
 			"/lectures/dnn",
 			"/lectures/cnn",
 			"/lectures/search",
-    		"/projects/",
+			"/lectures/pgm",
+			"/projects/",
 		],
     	"collapsedNav": [
 			  "/lectures/ai-intro",
@@ -45,6 +46,7 @@ const config = {
 			"/lectures/dnn",
 			"/lectures/cnn",
 			"/lectures/search",
+			"/lectures/pgm",
 			"/projects/",
     	],
 		"links": [

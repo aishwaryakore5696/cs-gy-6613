@@ -18,7 +18,7 @@ The publisher is about to release the 4th edition (2020) of this classic. I will
 
 The schedule is based on [Academic Calendar Spring 2020](https://www.nyu.edu/registrar/calendars/university-academic-calendar.html): 
 
-1. **Week 1 (1/27/2020)** We start with an introduction to AI by going over what are the components that constitute an AI system. We develop a map that will guide us through the rest of the course as we deep dive into each component. 
+1. **Week 1 (1/27/2020)** We start with an introduction to AI by going over what are the components that constitute an AI system. We develop a map that will guide us through the rest of the course as we deep dive into each component that is embedded into AI agents. 
           
 2. **Week 2 (2/3/2020)**  The perception subsystem is at the outer shell of the AI system. Its function is to process and fuse multimodal sensory inputs. Perception is implemented via a number of reflexive agents that map directly perceived state to an primitive action such as regressing on the frame coordinates of an object in the scene. We present the learning problem both for classification and regression and the path from classical machine learning algorithms to today's deep neural networks. DNNs are developed bottom up from the Perceptron algorithm. The learning problem MLPs learn via optimization approaches such as Stochastic Gradient Descent.  
           
