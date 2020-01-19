@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2020-01-19T11:40:16.984Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="dzSten8jOk6olzFpK6jX" version="12.5.3" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2020-01-19T12:29:43.541Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36" etag="2_o-hgAwPBVav_N2sVZ8" version="12.5.3" type="github" pages="3">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Alg-Taxonomy">
-    <mxGraphModel dx="1636" dy="559" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
+    <mxGraphModel dx="1636" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="1" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0"/>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0"/>
@@ -73,30 +73,58 @@
     </mxGraphModel>
   </diagram>
   <diagram id="-eUFYHI1WHWqF55BRZ-L" name="AI System">
-    <mxGraphModel dx="786" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1026" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="l5AnI45lrApZgRh-VqhP-0"/>
         <mxCell id="l5AnI45lrApZgRh-VqhP-1" parent="l5AnI45lrApZgRh-VqhP-0"/>
         <mxCell id="l5AnI45lrApZgRh-VqhP-2" value="" style="shape=mxgraph.gcp.extras.blue_hexagon;html=1;fillColor=#4387FD;gradientColor=#4683EA;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="l5AnI45lrApZgRh-VqhP-1">
           <mxGeometry x="220" y="110" width="300" height="250" as="geometry"/>
         </mxCell>
-        <mxCell id="l5AnI45lrApZgRh-VqhP-3" value="Deep Learning" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="l5AnI45lrApZgRh-VqhP-1">
+        <mxCell id="l5AnI45lrApZgRh-VqhP-3" value="Deep Learning&lt;br&gt;Subsystem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="l5AnI45lrApZgRh-VqhP-1">
           <mxGeometry x="160" y="225" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="l5AnI45lrApZgRh-VqhP-4" value="Probabilistic Logic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="l5AnI45lrApZgRh-VqhP-1">
+        <mxCell id="l5AnI45lrApZgRh-VqhP-4" value="Probabilistic Logic&lt;br&gt;Subsystem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="l5AnI45lrApZgRh-VqhP-1">
           <mxGeometry x="240" y="90" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="l5AnI45lrApZgRh-VqhP-6" value="Probabilistic Reasoning" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="l5AnI45lrApZgRh-VqhP-1">
+        <mxCell id="l5AnI45lrApZgRh-VqhP-6" value="Probabilistic Reasoning&lt;br&gt;Subsystem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="l5AnI45lrApZgRh-VqhP-1">
           <mxGeometry x="260" y="370" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="l5AnI45lrApZgRh-VqhP-7" value="Decision&lt;br&gt;Theory" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="l5AnI45lrApZgRh-VqhP-1">
+        <mxCell id="l5AnI45lrApZgRh-VqhP-7" value="Decision&lt;br&gt;Subsystem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="l5AnI45lrApZgRh-VqhP-1">
           <mxGeometry x="450" y="370" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="l5AnI45lrApZgRh-VqhP-8" value="Cognitive Modeling&lt;br&gt;/ Simulation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="l5AnI45lrApZgRh-VqhP-1">
+        <mxCell id="l5AnI45lrApZgRh-VqhP-8" value="World Modeling&lt;br&gt;Subsystem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="l5AnI45lrApZgRh-VqhP-1">
           <mxGeometry x="530" y="225" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="l5AnI45lrApZgRh-VqhP-9" value="Search&lt;br&gt;&amp;nbsp;/ Problem Solving" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="l5AnI45lrApZgRh-VqhP-1">
-          <mxGeometry x="460" y="90" width="40" height="20" as="geometry"/>
+        <mxCell id="l5AnI45lrApZgRh-VqhP-9" value="Search&lt;br&gt;&amp;nbsp;/ Problem Solving&lt;br&gt;Subsystem" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="l5AnI45lrApZgRh-VqhP-1">
+          <mxGeometry x="470" y="80" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="VRidYD33KdTWLXSQJfiP-1" value="" style="endArrow=none;dashed=1;html=1;entryX=0;entryY=0.511;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=0.27;exitY=1.007;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FFFF99;strokeWidth=9;" edge="1" parent="l5AnI45lrApZgRh-VqhP-1" source="l5AnI45lrApZgRh-VqhP-2" target="l5AnI45lrApZgRh-VqhP-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="350" as="sourcePoint"/>
+            <mxPoint x="210" y="410" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="370" y="238"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRidYD33KdTWLXSQJfiP-3" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#FFFF99;entryX=0.273;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;exitX=0.787;exitY=0.047;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=5;" edge="1" parent="l5AnI45lrApZgRh-VqhP-1" source="l5AnI45lrApZgRh-VqhP-2" target="l5AnI45lrApZgRh-VqhP-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="302" y="120" as="sourcePoint"/>
+            <mxPoint x="370" y="430" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="390" y="160"/>
+              <mxPoint x="410" y="230"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VRidYD33KdTWLXSQJfiP-4" value="" style="endArrow=none;dashed=1;html=1;strokeColor=#FFFF99;strokeWidth=9;" edge="1" parent="l5AnI45lrApZgRh-VqhP-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="240" as="sourcePoint"/>
+            <mxPoint x="440" y="355" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="370" y="280"/>
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
