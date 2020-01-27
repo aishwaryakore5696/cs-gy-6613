@@ -59,6 +59,9 @@ const plugins = [
             }
           }
         },
+        {
+          resolve: "gatsby-remark-embed-video"
+        }
       ],
       extensions: [".mdx", ".md"],
       // defaultLayouts: {
