@@ -118,7 +118,7 @@ Jan 2020
 
 ## The Bell Labs research AI environment
 
-![left autoplay mute](images/time-lapse.mp4?t=80)
+![left autoplay mute](images/unix-world.mp4)
 
 - This maze was constructed in Bell Labs for the [Unix 50 competition](https://www.bell-labs.com/unix50/) to demonstrate the ability of intelligent robotic agents to search for unknown objects in it. 
 - It is constantly enhanced with more challenging parts such as collaboration between robots. 
