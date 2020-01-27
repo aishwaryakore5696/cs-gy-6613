@@ -13,7 +13,7 @@ The course schedule below highlights our journey to understand the multiple subs
 
 The publisher is about to release the [4th edition (2020) of this classic](https://www.amazon.com/Artificial-Intelligence-A-Modern-Approach/dp/0134610997/ref=sr_1_3?crid=17NGBV1XXV150&keywords=ai+a+modern+approach&qid=1576432686&sprefix=ai+the+modern+appr%2Caps%2C158&sr=8-3). We will be monitoring availability in bookstores but it does not seem to be that this edition will be published on time for the Spring 2020 class.  
 
-Optional but recommended texts are: (a) FDRL: "Foundations of Deep Reinforcement Learning", by Graesser & Keng, 2020. (b) GERON: "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow", 2nd Edition, by Geron, 2019. (c) DL: https://www.deeplearningbook.org/ (free)
+Other recommended texts are: (a) DRL: "Foundations of Deep Reinforcement Learning", by Graesser & Keng, 2020. (b) GERON: "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow", 2nd Edition, by Geron, 2019. (c) DL: https://www.deeplearningbook.org/ (free)
 
 ## Schedule
 
