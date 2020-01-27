@@ -1,6 +1,6 @@
 const config = {
 	"gatsby": {
-		"pathPrefix": "/",
+		"pathPrefix": "/cs-gy-6613",
 		"siteUrl": "https://github.com/patelis/cs-gy-6613/tree/master/content",
 		"gaTrackingId": null
 	},
@@ -38,19 +38,19 @@ const config = {
 			"/lectures/mdp",
 			"/projects/",
 		],
-    	"collapsedNav": [
-			"/lectures/ai-intro",
-			"/lectures/ml-math",
-			"/lectures/ml-frameworks",
-			"/lectures/regression",
-			"/lectures/classification",
-			"/lectures/dnn",
-			"/lectures/cnn",
-			"/lectures/search",
-			"/lectures/pgm",
-			"/lectures/mdp",
-			"/projects/",
-    	],
+    	// "collapsedNav": [
+		// 	"/lectures/ai-intro",
+		// 	"/lectures/ml-math",
+		// 	"/lectures/ml-frameworks",
+		// 	"/lectures/regression",
+		// 	"/lectures/classification",
+		// 	"/lectures/dnn",
+		// 	"/lectures/cnn",
+		// 	"/lectures/search",
+		// 	"/lectures/pgm",
+		// 	"/lectures/mdp",
+		// 	"/projects/",
+    	// ],
 		"links": [
 			{ "text": "Colab", "link": "https://colab.research.google.com"},
 			{ "text": "Kaggle", "link": "https://www.kaggle.com"}
