@@ -46,11 +46,8 @@ This should open up your browser, and you should see Jupyter's tree view, with t
 Note: you can also visit [http://localhost:8888/nbextensions](http://localhost:8888/nbextensions) to activate and configure Jupyter extensions.
 
 
-<<<<<<< HEAD
-=======
 ## Starting Jupyter in Google Colab
 The runtime performance will greatly improve for some projects using the **free** GPU resources provided by [Google Colab](https://colab.research.google.com). In this course we will make use of these facilities - the good news is that you have an account in Google Colab as most of you have a google account. If not go ahead and create one to be able to login into Google colab. You will need Google Colab for all your projects so that you can demonstrate that your results can be replicated.  In addition Colab has many [features](https://colab.research.google.com/notebooks/basic_features_overview.ipynb) that come handy. 
->>>>>>> ab5b4b8a4d9ebba245d74b743070d9f50ae1c517
 
 
 ## Git / Github
