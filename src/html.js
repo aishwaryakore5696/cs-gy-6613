@@ -1,6 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import config from "../config";
+import { Link } from "gatsby"
 
 export default class HTML extends React.Component {
   render() {

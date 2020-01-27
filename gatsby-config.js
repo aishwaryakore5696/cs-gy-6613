@@ -42,6 +42,13 @@ const plugins = [
           resolve: 'gatsby-remark-copy-linked-files'
         },
         {
+          resolve: `gatsby-plugin-catch-links`,
+          // options: {
+          //   // Links are relative to this directory
+          //   excludeRegex: /docs,
+          // },
+        },
+        {
           resolve: `gatsby-remark-katex`,
           options: {
             // Add any KaTeX options from https://github.com/KaTeX/KaTeX/blob/master/docs/options.md here

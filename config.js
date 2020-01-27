@@ -35,11 +35,12 @@ const config = {
 			"/lectures/cnn",
 			"/lectures/search",
 			"/lectures/pgm",
+			"/lectures/mdp",
 			"/projects/",
 		],
     	"collapsedNav": [
-			  "/lectures/ai-intro",
-			  "/lectures/ml-math",
+			"/lectures/ai-intro",
+			"/lectures/ml-math",
 			"/lectures/ml-frameworks",
 			"/lectures/regression",
 			"/lectures/classification",
@@ -47,6 +48,7 @@ const config = {
 			"/lectures/cnn",
 			"/lectures/search",
 			"/lectures/pgm",
+			"/lectures/mdp",
 			"/projects/",
     	],
 		"links": [

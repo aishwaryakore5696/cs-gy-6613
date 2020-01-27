@@ -2,7 +2,10 @@
 title: Your Programming Environment
 ---
 
-The following is heavily borrowed by Geron's book. 
+## Starting Jupyter in Google Colab
+The runtime performance will greatly improve for some projects using the **free** GPU resources provided by [Google Colab](https://colab.research.google.com). In this course we will make use of these facilities - the good news is that you have an account in Google Colab as most of you have a google account. If not go ahead and create one to be able to login into Google colab. You will need Google Colab for all your projects so that you can demonstrate that your results can be replicated.  In addition Colab has many [features](https://colab.research.google.com/notebooks/basic_features_overview.ipynb) that come handy. 
+
+I heavily borrowed from Geron's book for the following. 
 
 ## Setup Anaconda Python
 When using Anaconda, you need to create an isolated Python environment dedicated to this course. This is recommended as it makes it possible to have a different environment for each project, with potentially different libraries and library versions:
@@ -43,8 +46,6 @@ This should open up your browser, and you should see Jupyter's tree view, with t
 Note: you can also visit [http://localhost:8888/nbextensions](http://localhost:8888/nbextensions) to activate and configure Jupyter extensions.
 
 
-## Starting Jupyter in Google Colab
-The runtime performance will greatly improve for some projects using the **free** GPU resources provided by [Google Colab](https://colab.research.google.com). In this course we will make use of these facilities - the good news is that you have an account in Google Colab as most of you have a google account. If not go ahead and create one to be able to login into Google colab. You will need Google Colab for all your projects so that you can demonstrate that your results can be replicated.  In addition Colab has many [features](https://colab.research.google.com/notebooks/basic_features_overview.ipynb) that come handy. 
 
 
 ## Git / Github
